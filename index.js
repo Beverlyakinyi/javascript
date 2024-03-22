@@ -41,6 +41,15 @@ console.log(all)
 // "food"If the word is present, return it else return "the search word was not found"let arr5 = ["the", "way", "x", 4]
 
 let arr5=["the", "way", "x"];
+const B= arr5.includes("food");
+if(B==true){
+    console.log("food");
+}
+else{
+    console.log("the search word was not found");
+}
+
+
 
 
 
